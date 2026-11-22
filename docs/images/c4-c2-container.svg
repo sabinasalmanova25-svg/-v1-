@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#526579"/></marker><style>
+.title{font:700 30px Arial,sans-serif;fill:#172b4d}.sub{font:16px Arial,sans-serif;fill:#526579}
+.bound{fill:#fbfcfe;stroke:#7b8da6;stroke-width:3;stroke-dasharray:12 8}.box{fill:#eaf6ec;stroke:#438653;stroke-width:3}.data{fill:#f3edfb;stroke:#8064a2;stroke-width:3}.ext{fill:#fff5e5;stroke:#b58a35;stroke-width:3}.person{fill:#eef5ff;stroke:#4778b8;stroke-width:3}
+.name{font:700 22px Arial,sans-serif;fill:#172b4d;text-anchor:middle}.desc{font:16px Arial,sans-serif;fill:#344563;text-anchor:middle}
+.rel{stroke:#526579;stroke-width:3;fill:none;marker-end:url(#arr)}.dash{stroke-dasharray:10 8}.label{font:16px Arial,sans-serif;fill:#344563;text-anchor:middle}
+</style></defs>
+<rect width="1500" height="760" fill="#fff"/><text x="60" y="65" class="title">C2 — Container</text><text x="60" y="98" class="sub">Логическая декомпозиция личного кабинета</text>
+<rect x="70" y="260" width="240" height="130" rx="18" class="person"/><text x="190" y="310" class="name">Клиент</text><text x="190" y="345" class="desc">Лизингополучатель</text>
+<rect x="390" y="160" width="760" height="440" rx="24" class="bound"/><text x="420" y="205" class="name" text-anchor="start">Личный кабинет</text>
+<rect x="450" y="270" width="250" height="150" rx="18" class="box"/><text x="575" y="325" class="name">Интерфейс</text><text x="575" y="360" class="desc">Форма обращения</text>
+<rect x="820" y="270" width="270" height="150" rx="18" class="box"/><text x="955" y="325" class="name">Модуль обращений</text><text x="955" y="360" class="desc">Приём и обработка данных</text>
+<rect x="820" y="475" width="270" height="95" rx="18" class="data"/><text x="955" y="515" class="name">Хранилище</text><text x="955" y="545" class="desc">Логическая модель</text>
+<rect x="1210" y="270" width="240" height="150" rx="18" class="ext"/><text x="1330" y="325" class="name">Контур</text><text x="1330" y="355" class="name">обработки</text><text x="1330" y="390" class="desc">Условный участник</text>
+<path d="M310 325 H440" class="rel"/><text x="375" y="300" class="label">Работа с формой</text>
+<path d="M700 325 H810" class="rel"/><text x="755" y="300" class="label">Ввод данных</text>
+<path d="M955 420 V465" class="rel"/><text x="1030" y="450" class="label">Чтение / запись</text>
+<path d="M1090 325 H1200" class="rel dash"/><text x="1145" y="300" class="label">Передача*</text>
+<text x="750" y="680" class="sub" text-anchor="middle">* Физическая БД, внешний контур и интеграция не подтверждены; блоки показаны концептуально.</text>
+</svg>
