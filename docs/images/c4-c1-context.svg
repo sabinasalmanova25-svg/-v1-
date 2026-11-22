@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#526579"/></marker><style>
+.title{font:700 30px Arial,sans-serif;fill:#172b4d}.sub{font:16px Arial,sans-serif;fill:#526579}
+.box{fill:#eef5ff;stroke:#4778b8;stroke-width:3}.sys{fill:#eaf6ec;stroke:#438653;stroke-width:3}.ext{fill:#fff5e5;stroke:#b58a35;stroke-width:3}
+.name{font:700 24px Arial,sans-serif;fill:#172b4d;text-anchor:middle}.desc{font:17px Arial,sans-serif;fill:#344563;text-anchor:middle}
+.rel{stroke:#526579;stroke-width:3;fill:none;marker-end:url(#arr)}.dash{stroke-dasharray:10 8}
+.label{font:17px Arial,sans-serif;fill:#344563;text-anchor:middle}
+</style></defs>
+<rect width="1400" height="560" fill="#fff"/>
+<text x="60" y="65" class="title">C1 — System Context</text><text x="60" y="98" class="sub">Контекст функциональности подачи обращений</text>
+<rect x="70" y="205" width="300" height="150" rx="18" class="box"/>
+<text x="220" y="260" class="name">Клиент</text><text x="220" y="294" class="desc">Лизингополучатель</text><text x="220" y="323" class="desc">Подаёт обращение</text>
+<rect x="550" y="205" width="330" height="150" rx="18" class="sys"/>
+<text x="715" y="260" class="name">Личный кабинет</text><text x="715" y="294" class="desc">Система подачи обращений</text>
+<rect x="1030" y="205" width="300" height="150" rx="18" class="ext"/>
+<text x="1180" y="260" class="name">Контур обработки</text><text x="1180" y="294" class="desc">Условный участник</text><text x="1180" y="323" class="desc">Требует подтверждения</text>
+<path d="M370 270 H540" class="rel"/><text x="455" y="245" class="label">Создаёт обращение</text>
+<path d="M880 270 H1020" class="rel dash"/><text x="950" y="245" class="label">Передача*</text>
+<text x="700" y="445" class="sub" text-anchor="middle">* Внешний контур и механизм передачи не подтверждены исходными материалами.</text>
+</svg>
