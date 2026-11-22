@@ -23,4 +23,5 @@
 
 - [Обзор функциональности](docs/01-feature-overview.md)
 - [Обращения по теме изменения НДС](docs/02-vat-requests.md)
+- [C4-модель архитектуры (C1–C3)](docs/05-c4-architecture.md)
 - [Границы достоверности и открытые вопросы](docs/03-information-gaps.md)
