@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#526579"/></marker><style>
+.title{font:700 30px Arial,sans-serif;fill:#172b4d}.sub{font:16px Arial,sans-serif;fill:#526579}
+.bound{fill:#fbfcfe;stroke:#7b8da6;stroke-width:3;stroke-dasharray:12 8}.box{fill:#eaf6ec;stroke:#438653;stroke-width:3}.note{fill:#fff5e5;stroke:#b58a35;stroke-width:3}
+.name{font:700 21px Arial,sans-serif;fill:#172b4d;text-anchor:middle}.desc{font:16px Arial,sans-serif;fill:#344563;text-anchor:middle}
+.rel{stroke:#526579;stroke-width:3;fill:none;marker-end:url(#arr)}.label{font:16px Arial,sans-serif;fill:#344563;text-anchor:middle}
+</style></defs>
+<rect width="1500" height="760" fill="#fff"/><text x="60" y="65" class="title">C3 — Component</text><text x="60" y="98" class="sub">Компоненты логического модуля обращений</text>
+<rect x="60" y="155" width="1380" height="460" rx="24" class="bound"/><text x="95" y="200" class="name" text-anchor="start">Модуль обращений</text>
+<rect x="110" y="300" width="220" height="145" rx="18" class="box"/><text x="220" y="350" class="name">Выбор</text><text x="220" y="380" class="name">категории</text><text x="220" y="415" class="desc">Направление запроса</text>
+<rect x="395" y="300" width="220" height="145" rx="18" class="box"/><text x="505" y="350" class="name">Тип обращения</text><text x="505" y="390" class="desc">Для темы НДС</text>
+<rect x="680" y="300" width="220" height="145" rx="18" class="box"/><text x="790" y="350" class="name">Форма</text><text x="790" y="390" class="desc">Ввод данных</text>
+<rect x="965" y="300" width="220" height="145" rx="18" class="box"/><text x="1075" y="350" class="name">Проверка</text><text x="1075" y="390" class="desc">Контроль данных</text>
+<rect x="1250" y="300" width="150" height="145" rx="18" class="box"/><text x="1325" y="350" class="name">Передача</text><text x="1325" y="390" class="desc">Обращения</text>
+<path d="M330 372 H385" class="rel"/><path d="M615 372 H670" class="rel"/><path d="M900 372 H955" class="rel"/><path d="M1185 372 H1240" class="rel"/>
+<rect x="395" y="500" width="220" height="75" rx="14" class="note"/><text x="505" y="530" class="desc">Разъяснение</text><text x="505" y="555" class="desc">или несогласие</text>
+<path d="M505 445 V490" class="rel"/>
+<text x="750" y="680" class="sub" text-anchor="middle">Состав полей, правила проверок и механизм передачи требуют подтверждения.</text>
+</svg>
